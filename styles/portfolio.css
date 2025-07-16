@@ -44,15 +44,7 @@ ul li a{
 .dark-2 {
     color: #474747;
 }
-.btn-primary {
-    background-color: #FD6E0A;
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
 .banner {
    display: flex;
    justify-content: space-between;
@@ -83,6 +75,16 @@ ul li a{
     color: #474747;
     margin: 0 0 30px 0;
 }
+.btn-primary {
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* about section start */
 .main{
     max-width: 1140px;
     margin: 0 auto;
@@ -114,7 +116,7 @@ ul li a{
     background-color: white;
 }
 .main section{
-    margin-top: 130px;
+    /* margin-top: 130px; */
     margin-bottom: 130px;
 }
 .skill-container{
