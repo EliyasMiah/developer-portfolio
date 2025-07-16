@@ -11,6 +11,10 @@
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+/* share color */
+.secondary-bg {
+    background-color: #FFF8F3;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -54,24 +58,86 @@ ul li a{
    justify-content: space-between;
    margin: 0 38px 0 230px;
    align-items: center;
+   
 }
 .banner-content{
    width: 585px;
    height: 356px;
+   
+
 }
 .greting{
     font-size: 45px;
     font-weight: 600px;
     color: #474747;
+    margin: 0;
 }
 .heading {
     font-size: 85px;
     font-weight: 700;
     color: black;
+    margin: 0;
 }
 .dascription{
     font-size: 18px;
     color: #474747;
+    margin: 0 0 30px 0;
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+   
+}
+.about-content{
+    display: flex;
+    justify-content: space-around;
+}
+.about-items{
+    margin: 30px 0 0 0;
+}
+.about-item{
+    font-weight: 600;
+    margin: 0;
+}
+.about-info{
+    margin: 0;
 }
 
+.border{
+    border: 1px solid black;
+    background-color: white;
+}
+.main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+   text-align: center;
+}
+.skills-description{
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.skill{
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    gap: 30px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    margin: 0 0 10px 0;
+}
 
