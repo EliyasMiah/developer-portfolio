@@ -193,6 +193,48 @@ ul li a{
     margin: 30px 5px;
     color: #f8f6f6;
 }
+/* footer section start */
+
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-heading{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.footer-description{
+    color: #474747;
+    font-weight: 300px;
+}
+.icon-image img{
+    margin-right: 20px;
+}
+input[type="text"]{
+height: 30px;
+display: block;
+width: 100%;
+margin-bottom: 24px;
+border: none;
+padding: 18px;
+}
+footer textarea{
+display: block;
+width: 100%;
+margin-bottom: 24px;
+border: none;
+padding: 18px;
+}
+
+
+
+
+
 
 
 
