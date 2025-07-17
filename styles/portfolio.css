@@ -88,6 +88,15 @@ ul li a{
     cursor: pointer;
     border-radius: 5px;
 }
+.btn-primary1 {
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 /* about section start */
 .main{
     max-width: 1140px;
